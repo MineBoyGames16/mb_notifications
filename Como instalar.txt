@@ -1,0 +1,19 @@
+Ir a es_extended => client => fuctions.lua
+
+Añadir este código:
+
+ESX.ShowNotification = function(msg, timeouts, type)
+    if type ~= nil then
+        type = type
+    end
+    if timeouts == nil then
+        duration = 3000
+    else
+        duration = timeouts
+    end
+    TriggerEvent("mb:notifications:addNew", msg, type, duration)
+    -- TriggerEvent("mb_notifications:showNotification", {text = msg, timeout = duration, type = type})
+
+end
+
+Ensure mb_notifications in your server.cfg
