@@ -3,7 +3,7 @@ Notificaciones
 
 <div align="center">
   
-  <h1>💙MB SHOP💙</h1>
+  <h1>MB Scripts</h1>
 
 </h4>
   
